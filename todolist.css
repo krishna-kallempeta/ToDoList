@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main_container{
+    width: 400px;
+    height: 10vh;
+    margin: 30px auto;
+    font-size: large;
+    padding: 1rem 3rem 8rem 3rem;
+    background:  linear-gradient(to right ,  rgb(87, 123, 197), rgb(170, 170, 169),rgb(140, 193, 199));
+}
+
+.use{
+    width: 200px;
+    background-color: gray;
+    color: white;
+    margin: 6px auto;
+    font-weight: 800;
+    font-size: 2rem;
+}
+input{
+    width: 300px;
+    padding: 12px 4px;
+    box-sizing: border-box;
+    font-size: large;
+}
+.button{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    margin-top: 50px;
+    border: none;
+}
+
+.enter{
+    padding: 10px;
+    background-color: rgb(50, 220, 50);
+    border-radius: 12px;
+    color: black;
+    font-size: 22px;
+}
+.delete{
+    padding: 10px;
+    background-color: rgb(223, 15, 15);
+    border-radius: 12px;
+    color: black;
+    font-size: 22px;
+}
